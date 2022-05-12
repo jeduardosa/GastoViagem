@@ -10,4 +10,5 @@
     <string name="spendTotal">Seu gasto total será de:</string>
     <string name="valueTotal">R$ 0</string>
     <string name="calculate">Calcular</string>
+    <string name="Fill_in_Empty_fields">Preencha todos os campos!</string>
 </resources>

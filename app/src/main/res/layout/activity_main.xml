@@ -11,10 +11,11 @@
 
     <EditText
         android:id="@+id/edit_distance"
-        android:layout_marginTop="32dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/distance"        />
+        android:hint="Distância"       />
     <TextView
         android:layout_marginTop="2dp"
         android:layout_width="match_parent"
@@ -25,10 +26,11 @@
 
     <EditText
         android:id="@+id/edit_price"
-        android:layout_marginTop="32dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/price"        />
+        android:hint="Preço"       />
     <TextView
         android:layout_marginTop="2dp"
         android:layout_width="match_parent"
@@ -39,10 +41,11 @@
 
     <EditText
         android:id="@+id/edit_autonomy"
-        android:layout_marginTop="32dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/autonomy"        />
+        android:hint="Autonomia"        />
     <TextView
         android:layout_marginTop="2dp"
         android:layout_width="match_parent"
@@ -51,7 +54,7 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -71,8 +74,8 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/calculate"
-        android:layout_marginTop="32dp"
+        android:id="@+id/btnCalculate"
+        android:layout_marginTop="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
